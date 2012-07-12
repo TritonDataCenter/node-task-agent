@@ -4,10 +4,9 @@
   "version": "0.0.2",
   "author": "Joyent",
   "lib": "lib",
-  "bundledDependencies": [
-    "JSV",
-    "amqp",
-    "smartdc-config",
-    "yaml"
-  ]
+  "dependencies": {
+    "JSV": "3.5.0",
+    "amqp": "git://github.com/postwait/node-amqp.git",
+    "yaml": "0.2.3"
+ }
 }

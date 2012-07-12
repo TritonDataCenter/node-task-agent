@@ -1,0 +1,15 @@
+{
+  "name": "task_agent",
+  "version": "0.0.2",
+  "dependencies": {
+    "JSV": {
+      "version": "3.5.0"
+    },
+    "amqp": {
+      "version": "0.1.3"
+    },
+    "yaml": {
+      "version": "0.2.3"
+    }
+  }
+}

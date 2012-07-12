@@ -1,0 +1,13 @@
+{
+  "name": "task_agent",
+  "description": "",
+  "version": "0.0.2",
+  "author": "Joyent",
+  "lib": "lib",
+  "bundledDependencies": [
+    "JSV",
+    "amqp",
+    "smartdc-config",
+    "yaml"
+  ]
+}

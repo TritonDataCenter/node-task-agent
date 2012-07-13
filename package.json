@@ -6,7 +6,7 @@
   "lib": "lib",
   "dependencies": {
     "JSV": "3.5.0",
-    "amqp": "git://github.com/postwait/node-amqp.git",
+    "amqp": "git://github.com/postwait/node-amqp.git#7becb031a3517a22490addc46654e807bce5f37e",
     "yaml": "0.2.3"
  }
 }

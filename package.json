@@ -9,7 +9,7 @@
   "dependencies": {
     "JSV": "3.5.0",
     "amqp": "git://github.com/postwait/node-amqp.git#7becb031a3517a22490addc46654e807bce5f37e",
-    "amqp-plus": "git://github.com/orlandov/node-amqp-plus.git#491edd55d1fec0fbd62f6d94f256810726dfea90",
+    "amqp-plus": "git://github.com/orlandov/node-amqp-plus.git#a67f9547c116bf991b974ce5b9cd090c8b222fdb",
     "yaml": "0.2.3"
   }
 }

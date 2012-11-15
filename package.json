@@ -7,9 +7,11 @@
   },
   "lib": "lib",
   "dependencies": {
+    "bunyan": "0.14.5",
     "JSV": "3.5.0",
     "amqp": "git://github.com/postwait/node-amqp.git#7becb031a3517a22490addc46654e807bce5f37e",
     "amqp-plus": "git://github.com/orlandov/node-amqp-plus.git#a67f9547c116bf991b974ce5b9cd090c8b222fdb",
-    "yaml": "0.2.3"
+    "yaml": "0.2.3",
+    "sprintf": "0.1.1"
   }
 }

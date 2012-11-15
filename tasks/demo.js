@@ -7,28 +7,13 @@ var DemoTask = module.exports = function (req) {
   console.log("Created a DemoTask");
 }
 
-util.inherits(DemoTask, Task);
+Task.createTask(DemoTask);
 
-Task.setValidate(DemoTask, function (callback) {
-  callback(true);
-});
-
-Task.setStart(DemoTask, function (callback) {
+DemoTask.setStart(function (callback) {
   var self = this;
   console.log("Inside DemoTask#start");
-  self.silly(1,2,function () {
-    console.log("Done being silly");
-    self.req.progress(50);
-  });
-  self.finish();
+  self.log.info("I'm logging a message");
+  self.progress(50);
+  self.finish({ hello: 'world' });
 });
 
-Task.setFinish(DemoTask, function (callback) {
-  console.log("Inside DemoTask#finish");
-});
-
-Task.createStep(DemoTask, 'silly', function (a,b,callback) {
-  console.log("This is the silly step!");
-  console.log(arguments);
-  callback();
-});

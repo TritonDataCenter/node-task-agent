@@ -18,6 +18,9 @@
     },
     "yaml": {
       "version": "0.2.3"
+    },
+    "sprintf": {
+      "version": "0.1.1"
     }
   }
 }

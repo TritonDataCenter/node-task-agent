@@ -23,7 +23,6 @@ JSL_CONF_NODE	 = tools/jsl.node.conf
 JSL_FILES_NODE   = $(JS_FILES)
 JSSTYLE_FILES	 = $(JS_FILES)
 JSSTYLE_FLAGS    = -o indent=4,doxygen,unparenthesized-return=0
-SMF_MANIFESTS_IN = smf/manifests/provisioner.xml.in
 
 NODE_PREBUILT_VERSION=v0.8.9
 NODE_PREBUILT_TAG=gz

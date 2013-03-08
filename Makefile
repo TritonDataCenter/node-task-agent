@@ -24,7 +24,7 @@ JSL_FILES_NODE   = $(JS_FILES)
 JSSTYLE_FILES	 = $(JS_FILES)
 JSSTYLE_FLAGS    = -o indent=4,doxygen,unparenthesized-return=0
 
-NODE_PREBUILT_VERSION=v0.8.14
+NODE_PREBUILT_VERSION=v0.8.20
 NODE_PREBUILT_TAG=gz
 
 # Included definitions

@@ -2,15 +2,15 @@
   "name": "task_agent",
   "description": "AMQP task agent",
   "version": "0.1.0",
-  "author": {
-    "name": "Joyent"
-  },
+  "author": "Joyent (joyent.com)",
   "lib": "lib",
   "dependencies": {
     "bunyan": "0.14.5",
     "JSV": "3.5.0",
     "amqp": "git://github.com/postwait/node-amqp.git#77654268ca54bb93f5589e9fc13b6917945404c7",
     "yaml": "0.2.3",
-    "sprintf": "0.1.1"
+    "restify": "2.5.1",
+    "sprintf": "0.1.1",
+    "nodeunit": "0.7.4"
   }
 }

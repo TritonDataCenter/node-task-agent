@@ -3,6 +3,7 @@
 var TaskAgent = require('../lib/task_agent');
 var path = require('path');
 var createTaskDispatchFn = require('../lib/dispatch').createTaskDispatchFn;
+var createHttpTaskDispatchFn = require('../lib/dispatch').createHttpTaskDispatchFn;
 
 var tasksPath = path.join(__dirname, '../tasks');
 
@@ -21,7 +22,8 @@ var queueDefns = [
         log: true,
         maxConcurrent: 4,
         tasks: [ 'demo' ],
-        onmsg: createTaskDispatchFn(agent, tasksPath)
+        onmsg: createTaskDispatchFn(agent, tasksPath),
+        onhttpmsg: createHttpTaskDispatchFn(agent, tasksPath)
     }
 ];
 
@@ -29,5 +31,5 @@ agent.configureAMQP(function () {
     agent.on('ready', function () {
         agent.setupQueues(queueDefns);
     });
-    agent.connect();
+    agent.start();
 });

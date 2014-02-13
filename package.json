@@ -7,7 +7,7 @@
   "dependencies": {
     "bunyan": "0.14.5",
     "JSV": "3.5.0",
-    "amqp": "git://github.com/postwait/node-amqp.git#77654268ca54bb93f5589e9fc13b6917945404c7",
+    "amqp": "git://github.com/postwait/node-amqp.git#40bb61d7dcf479b97d38d42b9510e8d1d676c786",
     "amqp-plus": "git://github.com/orlandov/node-amqp-plus.git#a67f9547c116bf991b974ce5b9cd090c8b222fdb",
     "yaml": "0.2.3",
     "restify": "2.5.1",

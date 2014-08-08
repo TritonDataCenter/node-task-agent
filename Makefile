@@ -38,7 +38,7 @@ include ./tools/mk/Makefile.smf.defs
 #
 .PHONY: all
 all: $(SMF_MANIFESTS) | $(NPM_EXEC) $(REPO_DEPS)
-	$(NPM) install && $(NPM) update
+	$(NPM) install
 
 $(NODEUNIT): | $(NPM_EXEC)
 	$(NPM) install

@@ -13,5 +13,6 @@
     "restify": "2.5.1",
     "sprintf": "0.1.1",
     "nodeunit": "0.7.4"
-  }
+  },
+  "license": "MPL-2.0"
 }

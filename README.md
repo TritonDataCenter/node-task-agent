@@ -8,7 +8,7 @@
     Copyright (c) 2017, Joyent, Inc.
 -->
 
-**Note: This repository is obsolete.**
+**Note: This repository is obsolete. It was moved to [cn-agent](https://github.com/joyent/sdc-cn-agent).**
 
 # node-task-agent
 

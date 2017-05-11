@@ -5,8 +5,10 @@
 -->
 
 <!--
-    Copyright (c) 2014, Joyent, Inc.
+    Copyright (c) 2017, Joyent, Inc.
 -->
+
+**Note: This repository is obsolete.**
 
 # node-task-agent
 
